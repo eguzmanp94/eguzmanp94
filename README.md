@@ -1,13 +1,15 @@
-# 👋 Hola, soy Edd
+# 👋 Hi, I'm Edd
 
 💻 **Senior Software Developer**  
-Especializado en **Backend (.NET), Mobile (Android & iOS) y Arquitectura de Sistemas**
+Specialized in **Backend (.NET), Mobile Development (Android & iOS), and System Architecture**
 
-Construyo **plataformas escalables, aplicaciones móviles y sistemas empresariales** integrando múltiples tecnologías y servicios.
+I build **scalable platforms, mobile applications, and enterprise systems**, integrating multiple technologies and services.
+
+My work focuses on designing **robust architectures, high-performance APIs, and mobile platforms used in real-world production environments**.
 
 ---
 
-# 🚀 Stack Tecnológico
+# 🚀 Technology Stack
 
 ## Backend
 ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet)
@@ -22,6 +24,7 @@ Construyo **plataformas escalables, aplicaciones móviles y sistemas empresarial
 - JWT Authentication
 - REST APIs
 - Microservices
+- Stored Procedures optimization
 
 ---
 
@@ -50,182 +53,279 @@ Construyo **plataformas escalables, aplicaciones móviles y sistemas empresarial
 
 - AWS (EC2, S3, RDS)
 - Docker
-- CI/CD
-- Git
+- CI/CD pipelines
+- Git workflows
 - Firebase Cloud Messaging
 
 ---
 
-# 📱 Proyectos Destacados
+# 📱 Featured Projects
 
-## 📻 Radio Streaming Platform
+---
 
-Aplicación móvil para streaming de radio con analítica de uso.
+# 📻 Radio Streaming Platform
 
-### Tecnologías
+Mobile platform designed for **live radio streaming and listener analytics**, supporting real-time playback and station management.
+
+### Technologies
 
 - Kotlin
 - ExoPlayer
 - Firebase
 - REST APIs
+- Android Services
 
-### Funcionalidades
+### Architecture
 
-- Streaming en tiempo real
-- Mini Player / Big Player
-- Playlists dinámicas
-- Tracking de tiempo de reproducción
-- Integración con analytics
+- Modular Android architecture
+- PlayerRepository abstraction layer
+- Background playback service
+- Metadata extraction from streaming sources
+- Analytics tracking layer
+
+### Key Features
+
+- Live streaming playback
+- Mini Player and Full Player UI
+- Dynamic station lists
+- Playlist navigation
+- Metadata extraction from streaming servers
+- Background playback support
+- Automatic reconnection handling
+- Listening time tracking for analytics
+
+### Technical Challenges Solved
+
+- Handling **unstable radio streaming sources**
+- Implementing **accurate listening time analytics**
+- Managing **background playback services**
+- Handling multiple streaming formats (AAC, MP3, HLS)
 
 ---
 
-## 🧠 Mental Health Mobile Platform
+# 🧠 Mental Health Mobile Platform
 
-Aplicación móvil enfocada en bienestar mental y sesiones con especialistas.
+Cross-platform mobile application designed to connect users with mental health professionals and manage therapy sessions.
 
-### Tecnologías
+### Technologies
 
 Android  
-- Kotlin
-- Jetpack Compose
+- Kotlin  
+- Jetpack Compose  
 
 iOS  
-- Swift
-- SwiftUI
-- Combine
+- Swift  
+- SwiftUI  
+- Combine  
 
 Backend  
-- .NET API
-- SQL Server
+- .NET API  
+- SQL Server  
 
-### Funciones
+### Architecture
 
-- búsqueda de especialistas
-- agenda de sesiones
-- videollamadas
-- sistema de reseñas
-- gestión de planes
+- MVVM architecture
+- Reactive UI with Combine
+- API-driven mobile architecture
+- Centralized session management
+
+### Key Features
+
+- Specialist search and filtering
+- Therapist profile views
+- Session scheduling system
+- Video call integration
+- Session history tracking
+- Review and rating system
+- Subscription and session plans
+
+### Technical Challenges Solved
+
+- Migrating Android XML-based UI to **SwiftUI**
+- Handling **complex session scheduling logic**
+- Managing **real-time UI state updates**
+- Building consistent UI/UX across Android and iOS
 
 ---
 
-## 📡 Notification Service API
+# 📡 Notification Service API
 
-Sistema backend para envío de notificaciones multicanal.
+Backend platform designed to provide **multi-channel notification delivery** for different applications and services.
 
-### Tecnologías
+### Technologies
 
 - .NET 8
 - SQL Server
 - Firebase
 - Telegram API
+- REST APIs
 
-### Funcionalidades
+### Architecture
 
-- envío de notificaciones push
-- envío de imágenes y videos
-- integración con múltiples aplicaciones
-- logging de notificaciones
-- sistema de plantillas
+- Layered architecture
+- Notification provider abstraction
+- Queue-based notification processing
+- Template-driven messaging system
+
+### Features
+
+- Push notifications
+- Image and video notifications
+- Multi-application notification routing
+- Message templates
+- Delivery logging
+- Error handling and retry logic
+
+### Technical Challenges Solved
+
+- Designing **a unified notification system across multiple channels**
+- Handling **high-volume message delivery**
+- Implementing **flexible notification templates**
+- Integrating with different external services
 
 ---
 
-## 🚚 Transport Management System
+# 🚚 Transport Management System
 
-Sistema empresarial para gestión de transporte y logística.
+Enterprise software platform used to manage **transport operations, fleet management, and service workflows**.
 
-### Tecnologías
+### Technologies
 
 - .NET API
 - SQL Server
 - Web Applications
 
-### Funciones
+### System Capabilities
 
-- gestión de unidades
-- cotizaciones
-- órdenes de servicio
-- control de asistencia
-- gestión de clientes
-- mantenimiento de vehículos
+- Fleet management
+- Service order management
+- Quotation and contract management
+- Maintenance tracking
+- Employee attendance control
+- Customer management
+
+### Architecture
+
+- Multi-layer architecture
+- Service-based business logic
+- Stored procedure optimized database queries
+- API-based integrations
+
+### Technical Challenges Solved
+
+- Handling complex **business workflows**
+- Optimizing **SQL queries for large datasets**
+- Implementing scalable service layers
 
 ---
 
-## 🏛️ Municipal Citizen Service Apps
+# 🏛️ Municipal Citizen Service Apps
 
-Aplicaciones móviles desarrolladas para **gobiernos municipales del Estado de México**, diseñadas para mejorar la comunicación entre ciudadanos y autoridades mediante el reporte y seguimiento de incidencias dentro del municipio.
+Mobile applications developed for **municipal governments in the State of Mexico**, enabling citizens to report issues and track their resolution within their municipality.
 
-### Tecnologías
+### Technologies
 
-**Mobile**
+Mobile
 - Kotlin
 - Android SDK
 
-**Backend**
+Backend
 - .NET APIs
 - SQL Server
 
-**Infraestructura**
+Infrastructure
 - Firebase
 - Push Notifications
 
-### Funcionalidades
+### System Architecture
 
-- 📍 **Reporte de incidencias geolocalizadas**
-- 📸 Adjuntar fotografías al reporte
-- 📝 Registro de incidentes ciudadanos
-- 🔔 Notificaciones sobre cambios de estatus
-- 📊 Seguimiento del progreso de la incidencia
-- 🏛️ Panel administrativo para gestión municipal
-- 📂 Clasificación de incidentes por categoría
+- Mobile reporting client
+- REST API backend
+- Incident management system
+- Administrative dashboard
 
-### Tipos de incidencias reportadas
+### Features
 
-- Alumbrado público
-- Baches
-- Basura
-- Seguridad
-- Daños en infraestructura pública
-- Servicios urbanos
+- Geolocated incident reporting
+- Photo attachments
+- Citizen report submission
+- Incident categorization
+- Incident status tracking
+- Notification updates
+- Municipal administration dashboard
 
-Estas aplicaciones permiten **digitalizar los servicios ciudadanos y mejorar la capacidad de respuesta de las autoridades municipales**, facilitando el seguimiento transparente de los reportes realizados por la comunidad.
+### Types of Incidents
+
+- Street lighting failures
+- Potholes
+- Garbage collection issues
+- Public safety reports
+- Infrastructure damage
+- Urban service problems
+
+### Impact
+
+These applications help municipalities **digitize citizen services and improve response times**, increasing transparency and improving communication between citizens and local governments.
 
 ---
-
 
 # 🧠 Engineering Challenges Solved
 
-A lo largo de diferentes proyectos he trabajado resolviendo problemas técnicos complejos:
+Throughout my projects I have worked on solving complex technical challenges including:
 
-- Streaming de audio en tiempo real con **ExoPlayer**
-- Tracking de tiempo de reproducción para analítica
-- Migración de **Android XML a SwiftUI**
-- Procesamiento de imágenes en APIs **.NET multiplataforma**
-- Generación de **PDF desde HTML**
-- Integración de múltiples servicios de notificaciones
-- Arquitectura backend escalable con **.NET**
+### Media Streaming Systems
+
+- Designing streaming playback architecture using **ExoPlayer**
+- Implementing **listener analytics tracking**
+- Handling **network instability and buffering**
+
+### Mobile Architecture Migration
+
+- Migrating legacy Android UI systems to **modern SwiftUI implementations**
+- Maintaining UI/UX consistency across mobile platforms
+
+### Backend Performance Optimization
+
+- Optimizing SQL queries and stored procedures
+- Designing scalable REST APIs
+- Handling high-load notification systems
+
+### Document Processing Systems
+
+- Implementing **HTML-to-PDF document generation**
+- Image processing in cross-platform .NET environments
+- File handling and media processing APIs
+
+### System Integrations
+
+- Integration with Firebase services
+- Multi-platform notification delivery
+- API integrations with enterprise systems
 
 ---
 
-# 🧩 Arquitectura y Enfoque
+# 🧩 Architecture & Development Approach
 
-Mis proyectos siguen principios de:
+My development philosophy focuses on building **maintainable, scalable, and production-ready systems**.
+
+Key principles:
 
 - Clean Architecture
-- SOLID
-- MVVM
+- SOLID principles
+- MVVM architecture
 - Domain Driven Design
-- Arquitecturas escalables para aplicaciones empresariales
+- Scalable backend architectures
 
-También tengo experiencia integrando:
+Experience integrating with:
 
-- SAP
-- APIs empresariales
-- sistemas legacy
-- plataformas cloud
+- SAP systems
+- Enterprise APIs
+- Legacy systems
+- Cloud infrastructure
 
 ---
 
-# 📫 Contacto
+# 📫 Contact
 
 LinkedIn  
 www.linkedin.com/in/mtic-guzman-eduardo
@@ -235,4 +335,4 @@ eguzmanp94@gmail.com
 
 ---
 
-⭐ Siempre interesado en construir **software robusto, escalable y bien diseñado**.
+⭐ Always interested in building **robust, scalable, and well-designed software systems**.
