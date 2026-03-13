@@ -150,6 +150,48 @@ Sistema empresarial para gestión de transporte y logística.
 
 ---
 
+## 🏛️ Municipal Citizen Service Apps
+
+Aplicaciones móviles desarrolladas para **gobiernos municipales del Estado de México**, diseñadas para mejorar la comunicación entre ciudadanos y autoridades mediante el reporte y seguimiento de incidencias dentro del municipio.
+
+### Tecnologías
+
+**Mobile**
+- Kotlin
+- Android SDK
+
+**Backend**
+- .NET APIs
+- SQL Server
+
+**Infraestructura**
+- Firebase
+- Push Notifications
+
+### Funcionalidades
+
+- 📍 **Reporte de incidencias geolocalizadas**
+- 📸 Adjuntar fotografías al reporte
+- 📝 Registro de incidentes ciudadanos
+- 🔔 Notificaciones sobre cambios de estatus
+- 📊 Seguimiento del progreso de la incidencia
+- 🏛️ Panel administrativo para gestión municipal
+- 📂 Clasificación de incidentes por categoría
+
+### Tipos de incidencias reportadas
+
+- Alumbrado público
+- Baches
+- Basura
+- Seguridad
+- Daños en infraestructura pública
+- Servicios urbanos
+
+Estas aplicaciones permiten **digitalizar los servicios ciudadanos y mejorar la capacidad de respuesta de las autoridades municipales**, facilitando el seguimiento transparente de los reportes realizados por la comunidad.
+
+---
+
+
 # 🧠 Engineering Challenges Solved
 
 A lo largo de diferentes proyectos he trabajado resolviendo problemas técnicos complejos:
