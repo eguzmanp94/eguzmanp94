@@ -164,14 +164,6 @@ A lo largo de diferentes proyectos he trabajado resolviendo problemas técnicos 
 
 ---
 
-# 📊 GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=dark)
-
----
-
 # 🧩 Arquitectura y Enfoque
 
 Mis proyectos siguen principios de:
@@ -194,10 +186,10 @@ También tengo experiencia integrando:
 # 📫 Contacto
 
 LinkedIn  
-https://linkedin.com/in/TU_USUARIO
+www.linkedin.com/in/mtic-guzman-eduardo
 
 Email  
-tuemail@correo.com
+eguzmanp94@gmail.com
 
 ---
 
